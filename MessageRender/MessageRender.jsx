@@ -70,7 +70,7 @@ function MessageRender ({ data }) {
 
             case "strikethrough":
                 result.push(
-                    <s>{value}</s>
+                    <s key={`entity-${start}`}>{value}</s>
                 )
                 break
 
