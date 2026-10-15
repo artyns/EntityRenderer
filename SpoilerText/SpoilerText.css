@@ -1,0 +1,27 @@
+.Spoiler {
+    background: gray;
+    height: 1em;
+    width: fit-content;
+    border: 0;
+    border-radius: 5px;
+    color: gray;
+}
+
+.Spoiler.Review {
+    color: whitesmoke;
+    background: transparent;
+    animation: review 0.2s ease forwards ;
+}
+
+@keyframes review {
+    from {
+        background: gray;
+        color: gray;
+    }
+
+    to {
+        color: whitesmoke;
+        background: transparent;
+    }
+    
+}

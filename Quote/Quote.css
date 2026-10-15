@@ -1,0 +1,9 @@
+.Quote {
+    background: #0b0b9477;
+    border-left: 5px solid #0b0b94c3;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    white-space: pre-line;
+}
